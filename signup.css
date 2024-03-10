@@ -1,0 +1,72 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 90px;
+    background-image:url(Online-event-registration.webp);
+    padding-top: 40px;
+    
+}
+
+.container {
+    width: 50%;
+    margin: 0 auto;
+    border-color: #0056b3;
+    background-color:white;
+    margin-top: 20px;
+    /* height: 500px/ */
+    box-shadow:3px 3px 15px 10px  rgb(255, 0, 17) ;
+}
+
+form {
+    padding: 30px;
+    /* border: 3px solid #ccc; */
+    border-radius: 5px;
+
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    text-shadow:red;
+    font-family:Arial, Helvetica, sans-serif;
+
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px 2px;
+    border-radius: 10px;
+    border: 2px solid #ccc;
+    border-color: rgb(0, 255, 251) green;
+    box-shadow: 2px 2px 5px 5px grey;
+}
+
+button {
+    /* padding: 10px 20px; */
+    background-color: #007bff;
+    color: black;
+    /* border: none; */
+    border-radius: 10px;
+    cursor: pointer;
+    border-color: black;
+    width: 100%;
+    height: 50px;
+    text-shadow: 5px 5px 10px 10px black;
+
+
+    
+}
+
+button:hover {
+    background-color: #0056b3;
+    box-shadow: 5px 5px 5px 5px rgb(0, 255, 238);
+}
+span{
+    align-items: center;
+    padding-top: 5px;
+}
